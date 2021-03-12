@@ -35,7 +35,7 @@ defmodule MediumApi.Accounts.User do
   end
 
   defp hash_password(%Ecto.Changeset{valid?: true, changes: %{password: password}} = changeset) do
-    change(changeset, Comeonin.Argon2.add_hash(password))
+    change(changeset, Argon2.add_hash(password))
   end
 
 
