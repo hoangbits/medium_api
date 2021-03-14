@@ -48,7 +48,8 @@ defmodule MediumApi.MixProject do
       {:absinthe_phoenix, "~> 2.0"},
       {:absinthe_plug, "~> 1.5"},
       {:guardian, "~> 2.1"},
-      {:comeonin, "~> 5.3"}
+      {:comeonin, "~> 5.3"},
+      {:dataloader, "~> 1.0"}
     ]
   end
 
